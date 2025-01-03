@@ -5,13 +5,13 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=eiJnCQ5D#-YYcgrg0BZLhP6SwaSOYcDTnLwdleCZC1ZwvOOpsCGI' : process.env.SESSION_ID,
-PREFIX: process.env.PREFIX || '.' ,
+SESSION_ID: process.env.SESSION_ID === undefined ? '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=Pj4ESZ5b#1xKkPdamb0HDLxDDautVn9qT76C3TG1ieiZ2BNK0NY8' : process.env.SESSION_ID,
+PREFIX: process.env.PREFIX || ',' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
 SESSION_NAME: process.env.SESSION_NAME === undefined ? "asitha" : process.env.SESSION_NAME,
 ALIVE_MSG: process.env.ALIVE_MSG === undefined ? "*Hello , I am alive now!!*" : process.env.ALIVE_MSG,
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS === undefined ?"true" : process.env.AUTO_READ_STATUS,
-MODE: process.env.MODE === undefined ?"public" : process.env.MODE,
+MODE: process.env.MODE === undefined ?"private" : process.env.MODE,
 AUTO_VOICE: process.env.AUTO_VOICE === undefined ? "false" : process.env.AUTO_VOICE,
 AUTO_REPLY: process.env.AUTO_REPLY === undefined ? "false" : process.env.AUTO_REPLY,
 AUTO_STICKER: process.env.AUTO_STICKER === undefined ? "true" : process.env.AUTO_STICKER,
